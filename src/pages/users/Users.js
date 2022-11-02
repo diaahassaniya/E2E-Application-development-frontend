@@ -85,8 +85,8 @@ const Cameras = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    console.log("userId", userId)
-    getUserCamerasApi(userId)
+    
+     getUserCamerasApi(userId)
       .then((result) => {
         const res = result.data.result.map((val) => {
           return {

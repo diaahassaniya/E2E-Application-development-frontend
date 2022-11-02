@@ -1,6 +1,6 @@
 FROM node:16
 
-LABEL maintainer="dyaa@gmail.com"
+LABEL maintainer="1diaapro@gmail.com"
 
 WORKDIR /src
 

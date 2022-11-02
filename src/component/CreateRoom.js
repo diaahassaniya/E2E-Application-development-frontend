@@ -7,9 +7,7 @@ import "../App.css";
 const CreateRoom = () => {
   const [name, setName] = React.useState("");
 
-
   const handleSubmit = (event) => {
-    console.log("name", name);
     createRoomApi(name);
     setName("");
     React.setRows({});
